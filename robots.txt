@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Disallow any admin or temporary directories if they exist
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /.git/
+
+# Allow all CSS and JS files
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /favicon/
+
+# Sitemap location
+Sitemap: https://playingforformosa.org/sitemap.xml
+
+# Crawl-delay for politeness (optional)
+Crawl-delay: 1
